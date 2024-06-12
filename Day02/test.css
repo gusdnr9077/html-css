@@ -1,0 +1,18 @@
+/* css파일 style 담당 
+대상{
+  style에 넣었던 문법들 넣으면됨
+}*/
+
+h1{
+  color:pink;
+  font-family: monospace;
+
+}
+a{
+  color: green;
+  font-size: 20px;
+}
+button{
+  color: orange;
+  font-size: 30px;
+}

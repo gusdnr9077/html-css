@@ -1,0 +1,29 @@
+.login {
+  color: white;
+  background-color: rgb(94, 238, 94);
+  text-align: center;
+  width: 345px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+}
+.login2 {
+  color: black;
+  background-color: yellow;
+  text-align: center;
+  width: 345px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  border-radius: 4px;
+}
+.login3 {
+  color: black;
+  background-color: white;
+  width: 345px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.37);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 4px;
+}
