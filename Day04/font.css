@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Stylish&display=swap");
+.class {
+  font-family: "Stylish", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ownglyph_jooreeletter-Rg";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/Ownglyph_jooreeletter-Rg.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.apple {
+  font-family: "Ownglyph_jooreeletter-Rg";
+}
