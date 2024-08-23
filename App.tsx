@@ -21,13 +21,18 @@ import { FaRegCheckCircle } from "react-icons/fa";
 function App() {
   const [isDarkMode,setisDArkMode] = useState<boolean>(false);
   const[isChecked,setisChecked] = useState<boolean>(false)
+  const[num,setNum] = useState<number>(0)
   const changeMode = ()=> {
     // 지양하셈
     // setisDArkMode(!isDarkMode);
     // 리엑트에서 공식 state 변경 방법
-    setisDArkMode((prev)=>!prev);
+    setisDArkMode((prev)=>{
+      document.body.style.backgroundColor = !prev? "#34495e":"white"
+      return !prev
+    });
   }
-  const changeCheck = ()=>setisChecked(!isChecked)
+  const changeCheck = ()=>setisChecked((prev)=>!prev);
+  const chagnenum = ()=>setNum((prev)=>prev + 1);
   return (
     <div>
       {isDarkMode ?(
@@ -41,6 +46,7 @@ function App() {
   ):(
     <FaRegCheckCircle onClick={changeCheck} />
   )}
+  <div onClick={chagnenum}>{num}</div>
   </div>
   );
 }
